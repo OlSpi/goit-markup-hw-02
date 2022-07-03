@@ -2,13 +2,19 @@ body {
   font-family: "Roboto", sans-serif;
   background: #ffffff;
 }
+:root {
+  --brand-color: #212121;
+  --text-color: #757575;
+  --tło-color: #ffffff;
+  --zaznaczenie-color: #2196f3;
+}
 .studio-link {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1, 19;
   letter-spacing: 0.03px;
-  color: #2196f3;
+  color: var(--zaznaczenie-color);
   text-decoration: none;
 }
 .color-studio {
@@ -23,22 +29,26 @@ ul {
   line-height: 1, 14;
   letter-spacing: 0.02px;
   text-decoration: none;
+  color: var(--brand-color);
+}
+.menu:focus {
+  color: var(--zaznaczenie-color);
+}
+.menu:active {
+  color: var(--zaznaczenie-color);
 }
 .mail-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-color);
 }
-
-a {
-  color: #212121;
-  text-decoration: none;
+.mail-tel:hover {
+  color: var(--zaznaczenie-color);
 }
-a:hover,
-a:focus {
-  color: #2196f3;
+.mail-tel:focus {
+  color: var(--zaznaczenie-color);
 }
 
 .biznes {
@@ -51,10 +61,10 @@ a:focus {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--tło-color);
 }
 .zamow-usluge {
-  background: #2196f3;
+  background: var(--zaznaczenie-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
@@ -65,7 +75,7 @@ a:focus {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: #ffffff;
+  color: var(--tło-color);
 }
 .paragraf {
   font-weight: 700;
@@ -73,13 +83,13 @@ a:focus {
   line-height: 1, 14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--brand-color);
 }
 .tekst {
   font-size: 14px;
   line-height: 1, 7;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }
 .nagluwek {
   font-weight: 700;
@@ -87,7 +97,7 @@ a:focus {
   line-height: 1, 17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--brand-color);
 }
 .nagluwek-trzy {
   font-weight: 500;
@@ -95,7 +105,7 @@ a:focus {
   line-height: 1, 19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--brand-color);
 }
 .tekst-stanowisko {
   font-family: "Roboto";
@@ -105,8 +115,7 @@ a:focus {
   line-height: 1, 18;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #757575;
+  color: var(--text-color);
 }
 .img-one {
   background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
@@ -120,7 +129,7 @@ a:focus {
 }
 
 .ramka {
-  background: #ffffff;
+  background: var(--tło-color);
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -153,13 +162,22 @@ a:focus {
   font-size: 14px;
   line-height: 1, 71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--tło-color);
+}
+.adres:hover {
+  color: var(--zaznaczenie-color);
 }
 .color-studio-dwa {
-  color: #ffffff;
+  color: var(--tło-color);
 }
 .mail-tel-color {
   color: rgba(255, 255, 255, 0.6);
+}
+.mail-tel-color:hover {
+  color: var(--zaznaczenie-color);
+}
+.mail-tel-color:focus {
+  color: var(--zaznaczenie-color);
 }
 
 .button-one {
@@ -170,14 +188,14 @@ a:focus {
   border-style: none;
 }
 button {
-  color: #212121;
+  color: var(--brand-color);
   text-decoration: none;
 }
-button:hover {
-  background: #2196f3;
+button:active {
+  background: var(--zaznaczenie-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  color: #ffffff;
+  color: var(--tło-color);
 }
 .text-button {
   font-family: "Roboto";
@@ -189,7 +207,7 @@ button:hover {
   letter-spacing: 0.03em;
 }
 .ramka-two {
-  background: #ffffff;
+  background: var(--tło-color);
   border: 1px solid #eeeeee;
 }
 .img-portfolio1 {
@@ -222,12 +240,12 @@ button:hover {
 .title-one {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .title-two {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1, 9;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }

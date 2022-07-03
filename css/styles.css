@@ -12,8 +12,8 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
-  letter-spacing: 0.03px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
   color: var(--zaznaczenie-color);
   text-decoration: none;
 }
@@ -26,21 +26,22 @@ ul {
 .menu {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.1;
   letter-spacing: 0.02px;
   text-decoration: none;
   color: var(--brand-color);
 }
+.menu:hover {
+  color: var(--zaznaczenie-color);
+}
 .menu:focus {
   color: var(--zaznaczenie-color);
 }
-.menu:active {
-  color: var(--zaznaczenie-color);
-}
+
 .mail-tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
@@ -57,7 +58,7 @@ ul {
 .nagluwek-second {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -69,7 +70,7 @@ ul {
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 9;
+  line-height: 1.9;
   display: flex;
   align-items: center;
   text-align: center;
@@ -80,21 +81,21 @@ ul {
 .paragraf {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--brand-color);
 }
 .tekst {
   font-size: 14px;
-  line-height: 1, 7;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
 .nagluwek {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 17;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--brand-color);
@@ -102,7 +103,7 @@ ul {
 .nagluwek-trzy {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 19;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--brand-color);
@@ -112,7 +113,7 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 18;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
@@ -160,7 +161,7 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--tło-color);
 }
@@ -191,7 +192,7 @@ button {
   color: var(--brand-color);
   text-decoration: none;
 }
-button:active {
+button:hover {
   background: var(--zaznaczenie-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -202,7 +203,7 @@ button:active {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 6;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -245,7 +246,7 @@ button:active {
 }
 .title-two {
   font-size: 16px;
-  line-height: 1, 9;
+  line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }

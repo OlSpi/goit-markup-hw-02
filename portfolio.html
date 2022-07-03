@@ -1,26 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      title {
+        font-family: "Raleway", sans-serif;
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
     <header>
-        <div>
-          <a href="">WebStudio</a>
-          <nav>
-            <ul>
-              <li><a href="">Agencja</a></li>
-              <li><a href="">Portfolio</a></li>
-              <li><a href="">Kontakty</a></li>
-            </ul>
-          </nav>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a href="tel:+48111111111">+48 111 111 111</a>
-        </div>
-      </header>
-    
-</body>
+      <div>
+        <a
+          href="http://127.0.0.1:3000/goit-markup-hw-02/index.html"
+          class="studio-link"
+          >Web<span class="color-studio">Studio</span></a
+        >
+        <nav>
+          <ul>
+            <li>
+              <a
+                href="http://127.0.0.1:3000/goit-markup-hw-02/portfolio.html"
+                class="menu"
+                >Agencja</a
+              >
+            </li>
+            <li><a href="" class="menu">Portfolio</a></li>
+            <li><a href="" class="menu">Kontakty</a></li>
+          </ul>
+        </nav>
+        <a href="mailto:info@devstudio.com" class="mail-tel"
+          >info@devstudio.com</a
+        >
+        <a href="tel:+48111111111" class="mail-tel">+48 111 111 111</a>
+      </div>
+    </header>
+    <main>
+      <div>
+        <ul>
+          <li>
+            <button type="button" class="button-one">
+              <span class="text-button">Wszystkie</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="button-one">
+              <span class="text-button">Style</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="button-one">
+              <span class="text-button">Aplikacje</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="button-one">
+              <span class="text-button">Dizajn</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="button-one">
+              <span class="text-button">Markieting</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <figure class="ramka-two">
+              <img
+              class="img-portfolio1"
+                src="images/img(4)1.jpg"
+                alt="Strona internetowa"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h3 class="title-one">Technocrak</h3>
+                <p class="title-two">Strona internetowa</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="ramka-two">
+              <img
+                class="img-portfolio2"
+                src="images/img(5).jpg"
+                alt="Dizajn"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h3 class="title-one">Grafika New Orlean vs Golden Star</h3>
+                <p class="title-two">Dizajn</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="ramka-two">
+              <img
+                class="img-portfolio3"
+                src="images/img(6).jpg"
+                alt="Aplikacja"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h3 class="title-one">Restauracja Seafood</h3>
+                <p class="title-two">Aplikacja</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="ramka-two">
+              <img
+                class="img-portfolio4"
+                src="images/img(7).jpg"
+                alt="Słuchawki"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h3 class="title-one">Projekt Prime</h3>
+                <p class="title-two">Marketing</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="ramka-two">
+              <img
+                class="img-portfolio5"
+                src="images/img(8).jpg"
+                alt="Boxes"
+                width="270"
+                height="260"
+              />
+              <figcaption>
+                <h3 class="title-one">Projeckt Boxes</h3>
+                <p class="title-two">Aplikacja</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="ramka-two">
+              <img
+                class="img-portfolio6"
+                src="images/img(9).jpg"
+                alt="Monitor"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h3 class="title-one">Inspiration has no Borders</h3>
+                <p class="title-two">Strona internetowa</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="ramka-two">
+              <img
+                class="img-portfolio7"
+                src="images/img(10).jpg"
+                alt="Książka"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h3 class="title-one">Magazyn Limited Edition</h3>
+                <p class="title-two">Dizajn</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="ramka-two">
+              <img
+                class="img-portfolio8"
+                src="images/img(11).jpg"
+                alt="UI Developer"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h3 class="title-one">Projekt LAB</h3>
+                <p class="title-two">Marketing</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="ramka-two">
+              <img
+                class="img-portfolio9"
+                src="images/img(12).jpg"
+                alt="UI Developer"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h3 class="title-one">Projekt LAB</h3>
+                <p class="title-two">Marketing</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer class="footer">
+      <a
+        href="http://127.0.0.1:3000/goit-markup-hw-02/index.html"
+        class="studio-link"
+      >
+        Web<span class="color-studio-dwa">Studio</span></a
+      >
+      <address class="adres">
+        m.Warszawa, Aleje Jerozolimskie 21<br />
+        <span class="mail-tel-color">info@example.com</span><br />
+        <span class="mail-tel-color"> +48 111 111 111</span>
+      </address>
+    </footer>
+  </body>
 </html>

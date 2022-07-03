@@ -1,0 +1,233 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #ffffff;
+}
+.studio-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03px;
+  color: #2196f3;
+  text-decoration: none;
+}
+.color-studio {
+  color: #000;
+}
+ul {
+  list-style: none;
+}
+.menu {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02px;
+  text-decoration: none;
+}
+.mail-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+a {
+  color: #212121;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #2196f3;
+}
+
+.biznes {
+  background: #2f303a;
+}
+.nagluwek-second {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.zamow-usluge {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: #ffffff;
+}
+.paragraf {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.tekst {
+  font-size: 14px;
+  line-height: 1, 7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.nagluwek {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.nagluwek-trzy {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.tekst-stanowisko {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 18;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.img-one {
+  background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+  mix-blend-mode: normal;
+}
+.img-two {
+  background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
+}
+.img-three {
+  background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
+}
+
+.ramka {
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.zdjecie-img1 {
+  background: url(4853);
+  border-radius: 0px;
+}
+.zdjecie-img2 {
+  background: url(5844);
+  border-radius: 0px;
+}
+.zdjecie-img3 {
+  background: url(16166);
+  border-radius: 0px;
+}
+
+.zdjecie-img4 {
+  background: url(2968);
+  border-radius: 0px;
+}
+.footer {
+  background: #2f303a;
+}
+.adres {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.color-studio-dwa {
+  color: #ffffff;
+}
+.mail-tel-color {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.button-one {
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: #f5f4fa;
+  border-style: none;
+}
+button {
+  color: #212121;
+  text-decoration: none;
+}
+button:hover {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: #ffffff;
+}
+.text-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.ramka-two {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.img-portfolio1 {
+  background: url(portfolio1.jpg);
+}
+.img-portfolio2 {
+  background: url(portfolio2.jpg);
+}
+.img-portfolio3 {
+  background: url(portfolio-1.jpg);
+}
+.img-portfolio4 {
+  background: url(portfolio-2.jpg);
+}
+.img-portfolio5 {
+  background: url(portfolio5.jpg);
+}
+.img-portfolio6 {
+  background: url(111.jpg);
+}
+.img-portfolio7 {
+  background: url(portfolio7);
+}
+.img-portfolio8 {
+  background: url(portfolio8.jpg);
+}
+.img-portfolio9 {
+  background: url(2910404.jpg);
+}
+.title-one {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.title-two {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}

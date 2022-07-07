@@ -1,14 +1,16 @@
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: var(--tło-color);
-  color: var(--text-color);
-}
 :root {
   --brand-color: #212121;
   --text-color: #757575;
   --background-color: #ffffff;
   --link-color: #2196f3;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--tło-color);
+  color: var(--text-color);
+}
+
 .studio-link {
   font-family: "Raleway";
   font-weight: 700;

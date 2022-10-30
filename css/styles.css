@@ -1,0 +1,201 @@
+:root {
+  --brand-color: #212121;
+  --text-color: #757575;
+  --background-color: #ffffff;
+  --link-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.studio-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--link-color);
+  text-decoration: none;
+}
+.color-studio {
+  color: #000;
+}
+ul {
+  list-style: none;
+}
+.menu {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02px;
+  text-decoration: none;
+  color: var(--brand-color);
+}
+.menu:hover {
+  color: var(--link-color);
+}
+.menu:focus {
+  color: var(--link-color);
+}
+
+.mail-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--text-color);
+}
+.mail-tel:hover {
+  color: var(--link-color);
+}
+.mail-tel:focus {
+  color: var(--link-color);
+}
+
+.business {
+  background: #2f303a;
+}
+.headline1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--background-color);
+}
+.service {
+  background: var(--link-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--background-color);
+}
+.name-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-color);
+}
+.text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.headline2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+}
+.headline3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+}
+.employee {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+
+.border {
+  background: var(--background-color);
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.footer {
+  background: #2f303a;
+}
+.address,
+.mail-tel-color {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--background-color);
+}
+.address:hover {
+  color: var(--link-color);
+}
+.color-studio2 {
+  color: var(--background-color);
+}
+.mail-tel-color {
+  color: rgba(255, 255, 255, 0.6);
+}
+.mail-tel-color:hover {
+  color: var(--link-color);
+}
+.mail-tel-color:focus {
+  color: var(--link-color);
+}
+
+.button-one {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: #f5f4fa;
+  border-style: none;
+}
+.button-one {
+  color: var(--brand-color);
+  text-decoration: none;
+}
+.button-one:hover {
+  background: var(--link-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(--background-color);
+}
+
+.border-two {
+  background: var(--background-color);
+  border: 1px solid #eeeeee;
+}
+
+.title-one {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--brand-color);
+}
+.title-two {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}

@@ -10,7 +10,10 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
 }
-
+ul {
+  list-style: none;
+}
+/*HEADER*/
 .studio-link {
   font-family: "Raleway";
   font-weight: 700;
@@ -23,14 +26,12 @@ body {
 .color-studio {
   color: #000;
 }
-ul {
-  list-style: none;
-}
+
 .menu {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--brand-color);
 }
@@ -55,7 +56,7 @@ ul {
 .mail-tel:focus {
   color: var(--link-color);
 }
-
+/*HERO*/
 .business {
   background: #2f303a;
 }
@@ -82,6 +83,7 @@ ul {
   cursor: pointer;
   color: var(--background-color);
 }
+/*OUR ASPECTS*/
 .name-text {
   font-weight: 700;
   font-size: 14px;
@@ -96,6 +98,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+/*OUR WORKS*/
 .headline2 {
   font-weight: 700;
   font-size: 36px;
@@ -104,6 +107,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--brand-color);
 }
+/*OUR EMPLOYEES*/
 .headline3 {
   font-weight: 500;
   font-size: 16px;
@@ -119,15 +123,14 @@ ul {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-
-
 .border {
   background: var(--background-color);
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
+/*FOOTER*/
 .footer {
   background: #2f303a;
 }
@@ -140,23 +143,22 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--background-color);
-}
-.address:hover {
-  color: var(--link-color);
-}
-.color-studio2 {
-  color: var(--background-color);
+  text-decoration: none;
 }
 .mail-tel-color {
   color: rgba(255, 255, 255, 0.6);
 }
+.address:hover,
 .mail-tel-color:hover {
   color: var(--link-color);
 }
 .mail-tel-color:focus {
   color: var(--link-color);
 }
-
+.color-studio2 {
+  color: var(--background-color);
+}
+/*BUTTONS*/
 .button-one {
   font-family: "Roboto";
   font-style: normal;
@@ -186,7 +188,7 @@ ul {
   background: var(--background-color);
   border: 1px solid #eeeeee;
 }
-
+/*CARDS*/
 .title-one {
   font-weight: 700;
   font-size: 18px;

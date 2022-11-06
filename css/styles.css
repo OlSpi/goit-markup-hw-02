@@ -3,13 +3,16 @@
   --text-color: #757575;
   --background-color: #ffffff;
   --link-color: #2196f3;
-  --button-color:#f5f4fa;
+  --button-color: #f5f4fa;
+  --background-second-color: #2f303a;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 ul {
   list-style: none;
@@ -17,112 +20,109 @@ ul {
 address {
   font-style: normal;
 }
+a {
+  text-decoration: none;
+}
+button {
+  font-family: inherit;
+}
+
 /*HEADER*/
-.studio-link {
+.logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--link-color);
-  text-decoration: none;
 }
-.color-studio {
+.header-color-logo {
   color: #000;
 }
 
-.menu {
+.link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--brand-color);
 }
-.menu:hover {
-  color: var(--link-color);
-}
-.menu:focus {
+.link:hover,
+.link:focus {
   color: var(--link-color);
 }
 
-.mail-tel {
+.header-mail-tel {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
   color: var(--text-color);
 }
-.mail-tel:hover {
+.header-mail-tel:hover,
+.header-mail-tel:focus {
   color: var(--link-color);
 }
-.mail-tel:focus {
-  color: var(--link-color);
-}
+
 /*HERO*/
 .business {
-  background: #2f303a;
+  background: var(--background-second-color);
 }
-.headline1 {
+.business-headline {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--background-color);
 }
-.service {
-  background: var(--link-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+.button-one {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  cursor: pointer;
   color: var(--background-color);
+  background: var(--link-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
 }
 /*OUR ASPECTS*/
-.name-text {
+.title-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--brand-color);
 }
 .text {
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 /*OUR WORKS*/
-.headline2 {
+.title-second {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   text-align: center;
   color: var(--brand-color);
 }
 /*OUR EMPLOYEES*/
-.headline3 {
+
+.background-employee {
+  background: #f5f4fa;
+}
+.title-third {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-align: center;
   color: var(--brand-color);
 }
-.employee {
+.list-employee {
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
-.border {
+.list-employee-item {
+  text-align: center;
   background: var(--background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -131,37 +131,31 @@ address {
 
 /*FOOTER*/
 .footer {
-  background: #2f303a;
+  background: var(--background-second-color);
 }
-.color-studio2 {
+.footer-color-logo {
   color: var(--background-color);
 }
-.address,
-.mail-tel-color {
-  font-size: 14px;
+.footer-address,
+.footer-mail-tel {
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--background-color);
   text-decoration: none;
 }
-.mail-tel-color {
+.footer-mail-tel {
   color: rgba(255, 255, 255, 0.6);
 }
-.address:hover,
-.mail-tel-color:hover {
-  color: var(--link-color);
-}
-.mail-tel-color:focus {
+
+.footer-mail-tel:hover,
+.footer-mail-tel:focus {
   color: var(--link-color);
 }
 
 /*BUTTONS*/
-.button-one {
-  font-family: "Roboto";
+.button-two {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  letter-spacing: 0.03em;
   text-align: center;
   color: var(--brand-color);
   text-decoration: none;
@@ -172,27 +166,28 @@ address {
   cursor: pointer;
 }
 
-.button-one:hover {
+.button-two:hover,
+.button-two:focus {
   background: var(--link-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   color: var(--background-color);
 }
 
-.border-two {
+.card-item {
   background: var(--background-color);
   border: 1px solid #eeeeee;
 }
 /*CARDS*/
-.title-one {
+.card-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--brand-color);
 }
-.title-two {
+.card-text {
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
